@@ -21,7 +21,7 @@ class Fibonacci
 	Scanner in= new Scanner(System.in);
 	number=in.nextInt();
 
-	for(int i=1;i<number;i++)
+	for(int i=2;i<number;++i)
 	{	
 		while(n3<number)
 		{
