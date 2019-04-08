@@ -31,6 +31,9 @@ class BinaryTreeSearchisFull{
         tree.root = new Node(10);
         tree.root.left = new Node(20);
         tree.root.right = new Node(30);
+        tree.root.right.right= new Node (50);
+        tree.root.right.left = new Node (45);
+
 
         if(tree.isFullTree(tree.root))
             System.out.print("Full");
