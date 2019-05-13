@@ -1,0 +1,164 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WordCount",
+            "request": "launch",
+            "mainClass": "WordCount"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumericalAlphabets",
+            "request": "launch",
+            "mainClass": "NumericalAlphabets"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArrayOpr",
+            "request": "launch",
+            "mainClass": "ArrayOpr"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Array2D<java_beginner>",
+            "request": "launch",
+            "mainClass": "Array2D",
+            "projectName": "java_beginner"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BubbleSortString<java_beginner>",
+            "request": "launch",
+            "mainClass": "BubbleSortString",
+            "projectName": "java_beginner"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Bubblesort<java_beginner>",
+            "request": "launch",
+            "mainClass": "Bubblesort",
+            "projectName": "java_beginner"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ComLineTest<java_beginner>",
+            "request": "launch",
+            "mainClass": "ComLineTest",
+            "projectName": "java_beginner"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Factorial<java_beginner>",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "java_beginner"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Fibonacci<java_beginner>",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "java_beginner"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IfTest<java_beginner>",
+            "request": "launch",
+            "mainClass": "IfTest",
+            "projectName": "java_beginner"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Numberpyramid<java_beginner>",
+            "request": "launch",
+            "mainClass": "Numberpyramid",
+            "projectName": "java_beginner"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Oddeven<java_beginner>",
+            "request": "launch",
+            "mainClass": "Oddeven",
+            "projectName": "java_beginner"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PrimeNumber<java_beginner>",
+            "request": "launch",
+            "mainClass": "PrimeNumber",
+            "projectName": "java_beginner"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QuickSort<java_beginner>",
+            "request": "launch",
+            "mainClass": "QuickSort",
+            "projectName": "java_beginner"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Reading<java_beginner>",
+            "request": "launch",
+            "mainClass": "Reading",
+            "projectName": "java_beginner"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RoomArea<java_beginner>",
+            "request": "launch",
+            "mainClass": "RoomArea",
+            "projectName": "java_beginner"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SquareRoot<java_beginner>",
+            "request": "launch",
+            "mainClass": "SquareRoot",
+            "projectName": "java_beginner"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringManipulation<java_beginner>",
+            "request": "launch",
+            "mainClass": "StringManipulation",
+            "projectName": "java_beginner"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SwitchCity<java_beginner>",
+            "request": "launch",
+            "mainClass": "SwitchCity",
+            "projectName": "java_beginner"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-beginner<java_beginner>",
+            "request": "launch",
+            "mainClass": "beginner",
+            "projectName": "java_beginner"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-reversestring<java_beginner>",
+            "request": "launch",
+            "mainClass": "reversestring",
+            "projectName": "java_beginner"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinaryTreeSearchisFull",
+            "request": "launch",
+            "mainClass": "BinaryTreeSearchisFull"
+        }
+    ]
+}
