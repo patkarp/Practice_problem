@@ -27,7 +27,7 @@ class WordCount {
         dist.put(s,1);
       }
       else{
-        dist.put(s, dist.get(s)+1);
+        dist.put(s, dist.get(s)+1); //add +1 incase that String exist
       }
       
     }
