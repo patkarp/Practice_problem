@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Chaitali",
+            "request": "launch",
+            "mainClass": "Chaitali",
+            "projectName": "java_beginner"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SentenceSplitOccurences",
             "request": "launch",
             "mainClass": "SentenceSplitOccurences"

@@ -10,6 +10,7 @@ public interface Comparator<T> {
 The compare method compares its two arguments, returning a negative integer, 0, or a positive integer depending on whether the first argument is less than, equal to, or greater than the second.
 
 As we need decreasing order, therefore the comperator should return a positive value when the order appears to be increasing, so that it will change the order and make it decreasing again. Hence, b.score - a.score.
+https://www.hackerrank.com/challenges/java-comparator/forum
  */
 // Write your Checker class here
 class Checker implements Comparator<Player>{
