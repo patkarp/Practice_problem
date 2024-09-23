@@ -21,17 +21,27 @@ class WordCount {
     
     //will do hashmap
     HashMap<String, Integer> dist = new HashMap<String, Integer>();
-    
     for(String s:s1){
-      if(dist.get(s) == null){
-        dist.put(s,1);
+      if(dist.get(s)==null){
+        //dist.put(s,1);
+        dist.put(s,dist.getOrDefault(s, 0)+1);
       }
       else{
-        dist.put(s, dist.get(s)+1); //add +1 incase that String exist
+        dist.put(s, get(s,dist.get(s)+1));
+
       }
-      
     }
-    System.out.println(dist);
+    
+    // for(String s:s1){
+    //   if(dist.get(s) == null){
+    //     dist.put(s,1);
+    //   }
+    //   else{
+    //     dist.put(s, dist.get(s)+1); //add +1 incase that String exist
+    //   }
+      
+    // }
+    // System.out.println(dist);
     
     /** Old Method
      * 

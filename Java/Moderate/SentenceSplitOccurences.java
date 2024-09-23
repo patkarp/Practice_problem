@@ -15,24 +15,24 @@ class SentenceSplitOccurences {
       HashMap<String, Integer> h1 = new HashMap<String, Integer>();
       //Split the string by spaces
   
-      String s1_space[]=s.split("\\s+");
-      
-      //for(String s2: s1_space) System.out.println(s2);
+      String s1_space=s.replaceAll("\\s+", "");
+      System.out.println(s1_space);
   
       //Spliting by 3words
   
-      for(int i=0;i<s1_space.length;i++){//This is to iterate over s1_space[] 
-        for(int j=0;j<s1_space[i].length()-2;j++){//This to split the word /3 and iterate char by char; 
-           String temp = s1_space[i].substring(j,j+3); //Temp String initialized to reduce complexity ; substring(j,j+3) 3 words sequences
-           //Break it up and increase the count and add it into Hashmap
-           if(h1.get(temp) == null){
-              h1.put(temp,1);
-            }
-            else
-            {
-              h1.put(temp,h1.get(temp)+1);
-            }
-        }  
+      // for(int i=0;i<s1_space.length;i++){//This is to iterate over s1_space[] 
+      //   for(int j=0;j<s1_space[i].length()-2;j++){//This to split the word /3 and iterate char by char; 
+      for(int i = 0;i<s1_space.length()-2;i++){
+          String temp = s1_space.substring(i,i+3); //Temp String initialized to reduce complexity ; substring(j,j+3) 3 words sequences
+          //Break it up and increase the count and add it into Hashmap
+          if(h1.get(temp) == null){
+            h1.put(temp,1);
+          }
+          else
+          {
+            h1.put(temp,h1.get(temp)+1);
+          }
+          
       }
       System.out.println("Collection of List:");
       System.out.println(h1+"\n");
@@ -41,8 +41,8 @@ class SentenceSplitOccurences {
     public static void sortByValue(HashMap<String, Integer> hm) 
     { 
         // Create a list from elements of HashMap 
-        List<Map.Entry<String, Integer> > list = 
-               new LinkedList<Map.Entry<String, Integer> >(hm.entrySet()); 
+         List<Map.Entry<String, Integer>> list = new java.util.LinkedList<Map.Entry<String, Integer>>(
+                hm.entrySet());
   
         // Sort the list descending order
         Collections.sort(list, new Comparator<Map.Entry<String, Integer> >() { 
