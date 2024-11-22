@@ -16,6 +16,7 @@ class SentenceSplitOccurences {
       //Split the string by spaces
   
       String s1_space=s.replaceAll("\\s+", "");
+      //String s1_space=s.trim();
       System.out.println(s1_space);
   
       //Spliting by 3words
@@ -32,7 +33,7 @@ class SentenceSplitOccurences {
           {
             h1.put(temp,h1.get(temp)+1);
           }
-          
+    
       }
       System.out.println("Collection of List:");
       System.out.println(h1+"\n");
