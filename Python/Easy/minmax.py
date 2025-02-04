@@ -27,11 +27,11 @@ class Solution:
     def get_min_max(arr):
         min=arr[0]
         max=arr[0]
-        for i in range(0, len(arr)):
-            if arr[i]>max:
-                max=arr[i]
-            if arr[i]<min:
-                min=arr[i]
+        for i in arr:
+            if i>max:
+                max=i
+            if i<min:
+                min=i
                 
         return (min,max)
     arr = [1, 345, 234, 21, 56789]
